@@ -6,42 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&family=Questrial&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./assets/style.css">
   <title>Coding Quiz</title>
 </head>
 
 <body>
-    <main class="container rounded">
-        <div id="start-screen">
-            <div class="row header-row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <h1>Coding Quiz</h1>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-2"></div>
-                <section class="col-md-8">
-                    <p class="welcome">
-                        Quiz about web development
-                    </p>
-                </section>
-                <div class="col-md-2"></div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <div class="btnDiv">
-                        <button id="start">Click to start</button>
-                    </div>
-
-                </div>
-                <div class="col-md-2"></div>
-            </div>
+  <main class="container rounded">
+    <div id="timer">
+      <!-- timer in js -->
+    </div>
+    <br />
+    <br />
+    <div id="start-screen">
+      <div class="row header-row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1>Welcome to my code quiz!</h1>
         </div>
-        
-    </main>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <section class="col-md-8">
+          <p class="welcome">
+            You'll need to answer 10 questions about web development in 60 seconds. You'll lose 5 seconds for every wrong answer, and you can add your initials to the "Scores" page at the end.
+          </p>
+        </section>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="btnDiv">
+            <button id="start">Click to start</button>
+          </div>
+          
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+    <div id="questions">
+      <div class="row header-row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h2 id="question-title"></h2>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div id="choices">
+<!-- answer choices -->
+        </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div id="feedback">
+          <!-- is their answer correct or not? -->
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div id="scores-page">
+          <h2>Scores</h2>
+          <p class="headrow">
+            Initials, Score
+          </p>
+          <!-- scores page here -->
+        </div>
+      </div>
+      <div class="col-md-8"></div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </main>
 </body>
+
+</html>
