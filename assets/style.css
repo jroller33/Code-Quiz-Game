@@ -1,7 +1,78 @@
 :root {
-    --white: #ffffff;
     --black: #000000;
     --orange: #ea9d2ae7;
-    --gray: #d3d3d39c;
-    --bodyFont: 'Oswald', sans-serif;
+    --grey: #d3d3d39c;
+    --fontFamily: 'Oswald', sans-serif;
 }
+
+body {
+    background-color: var(--orange);
+}
+
+.container {
+    margin-top: 40px;
+    background-color: var(--grey);
+}
+
+.instructions {
+    margin-top: 40px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p {
+    font-family: var(--fontFamily);
+}
+
+.startBtnDiv {
+    text-align: center;
+
+}
+
+.userChoice,
+#timer,
+#startBtn {
+    border: 2px solid var(--black);
+    background-color: var(--orange);
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: var(--fontFamily);
+    line-height: 18px;
+    margin: 18px 18px 18px 20px;
+    padding: 12px 33px;
+    text-align: center;
+    color: var(--black);
+}
+
+.userChoice {
+    display: block;
+}
+.userChoice,
+#startBtn {
+    cursor: pointer;
+}
+
+#timer,
+#startBtn,
+#submitBtn {
+    display: inline-block;
+}
+
+.topRow {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#ansChoices {
+    margin: 40px 0;
+    padding-bottom: 40px;
+}
+
+#submitBtn,
+#restartBtn {
+    margin-bottom: 40px;
+}
+
