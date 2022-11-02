@@ -19,12 +19,13 @@
 <body>
     <main class="container rounded">
         <div id="timer">    
-                <!-- timer will go here on questions page, but should be hidden on homepage and scores page -->
+                <!-- timer will go here on questions page, but should be hidden on homepage and high scores page -->
 
         </div>
         <br />
 
-        <!--  -->
+        <!--                      HOMEPAGE     -->
+
         <div id="homepage">
             <div class="row header-row">           <!-- done -->
                 <div class="col-md-1"></div>
@@ -38,7 +39,7 @@
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <p class="instructions">
-                        This is a quiz about web development. You need to answer ten questions within 60 seconds. You lose 5 seconds for each wrong answer, and at the end you can add your initials to the High Scores page.
+                        This is a quiz about web development. You need to answer ten questions within 60 seconds. You'll lose 5 seconds for each wrong answer, and at the end you can add your initials to the High Scores page.
                     </p>
                 </div>
                 <div class="col-md-1"></div>
@@ -55,6 +56,53 @@
             </div>                                  <!-- done-->
         </div>
 
+
+        <!--                QUESTIONS PAGE -->
+
+    <div id="questionsPage">
+        <div class="row header-row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <h2 id="qTitle"></h2>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div id="ansChoices">
+              <!-- answer choices will go here -->
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+
+
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div id="rightOrWrong">
+            <!-- show whether the user's choice was right or wrong -->
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div id="highScores">
+            <h2>High Scores:</h2>
+            <p class="headrow">
+              Initials, Score
+            </p>
+            <!-- high scores -->
+          </div>
+        </div>
+        <div class="col-md-10"></div>
+      </div>
+      <script src="./assets/script.js"></script>
 
 
 
