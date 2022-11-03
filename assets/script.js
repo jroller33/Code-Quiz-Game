@@ -1,60 +1,75 @@
 const questionsArray = [
     {
-        name: "",
+        name: "q1",
+        text: "What provides the basic structure of a webpage?",
+        ansChoices: ["JavaScript", "CSS", "Perl", "HTML"],
+        correctAns: "HTML",
+    },
+    {
+        name: "q2",
+        text: "What does HTML stand for?",
+        ansChoices: [
+            "Hyperlinks and Text Markup", 
+            "Hyper Text Markup Language",
+            "Home Test Mark Language",
+            "Hello to Mr. Larson"
+        ],
+        correctAns: "Hyper Text Markup Language",
+    },
+    {
+        name: "q3",
+        text: "Which HTML element has the largest heading?",
+        ansChoices: ["<heading>", "<h1>", "<head>", "<h6>"],
+        correctAns: "<h1>",
+    },
+    {
+        name: "q4",
+        text: "How do you create a hyperlink in HTML?",
+        ansChoices: [
+            "<a url='http://www.google.com'>Google</a>",
+            "<a name='http://www.google.com'>Google</a>",
+            "<a>='http://www.google.com'>Google</a>",
+            "<a href='http://www.google.com'>Google</a>"
+        ],
+        correctAns: "<a href='http://www.google.com'>Google</a>",
+    },
+    {
+        name: "q5",
+        text: "What is the correct HTML for making a checkbox?",
+        ansChoices: [
+            "<checkbox>",
+            "<check>",
+            "<input type='check'>",
+            "<input type='checkbox'>"
+        ],
+        correctAns: "<input type='checkbox'>",
+    },
+    {
+        name: "q6",
         text: "",
         ansChoices: [""],
         correctAns: "",
     },
     {
-        name: "",
+        name: "q7",
         text: "",
         ansChoices: [""],
         correctAns: "",
     },
     {
-        name: "",
+        name: "q8",
         text: "",
         ansChoices: [""],
         correctAns: "",
     },
     {
-        name: "",
+        name: "q9",
         text: "",
         ansChoices: [""],
         correctAns: "",
     },
     {
-        name: "",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
-    },
-    {
-        name: "",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
-    },
-    {
-        name: "",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
-    },
-    {
-        name: "",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
-    },
-    {
-        name: "",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
-    },
-    {
-        name: "",
+        name: "q10",
         text: "",
         ansChoices: [""],
         correctAns: "",
