@@ -46,33 +46,58 @@ const questionsArray = [
     },
     {
         name: "q6",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
+        text: "What does CSS stand for?",
+        ansChoices: [
+            "Creative Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets",
+            "Computer Style Sheets"
+        ],
+        correctAns: "Cascading Style Sheets",
     },
     {
         name: "q7",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
+        text: "Where in an HTML document should you refer to the external style sheet?",
+        ansChoices: [
+            "In the <body> section",
+            "In the <head> section",
+            "At the end",
+            "It doesn't matter where it is"
+        ],
+        correctAns: "In the <head> section",
     },
     {
         name: "q8",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
+        text: "Which property is used to change the background color?",
+        ansChoices: [
+            "background-color",
+            "color",
+            "bgcolor",
+            "backgroundcolor"
+        ],
+        correctAns: "background-color",
     },
     {
         name: "q9",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
+        text: "Which CSS property is used to change the text color of an element?",
+        ansChoices: [
+            "fgcolor",
+            "text-color",
+            "color",
+            "textcolor"
+        ],
+        correctAns: "color",
     },
     {
         name: "q10",
-        text: "",
-        ansChoices: [""],
-        correctAns: "",
+        text: "How do you call a function named 'newFunction' in JavaScript?",
+        ansChoices: [
+            "call newFunction()",
+            "newFunction",
+            "newFunction()",
+            "use newFunction()"
+        ],
+        correctAns: "newFunction()",
     }
 ];
 
