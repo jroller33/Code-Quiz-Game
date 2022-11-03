@@ -111,10 +111,10 @@ let questionTextEl = document.getElementById("questionText");
 let highScoresEl = document.getElementById("highScores");
 
 let timerId;
+let time = 60;
+let currentQuestionIndex = 0;
 
 function startQuiz() {
-    let time = 60;
-    let currentQuestionIndex = 0;
     homepageEl.setAttribute("style", "display: none");
     highScoresEl.setAttribute("style", "display: none");
     questionsEl.setAttribute("style", "display: block");
@@ -245,7 +245,7 @@ function showAllScores() {
     userDataParse.forEach((data, i) => {
         let user = document.createElement("div");
         user.setAttribute("class", "score");
-        user.textContent = (`${index + 1}. ${info.playerInit}, ${info.score}`);
+        user.textContent = (`${i + 1}. ${data.userInitials}, ${data.score}`);
 
         highScoresEl.appendChild(user);
     });
@@ -261,6 +261,7 @@ function replay() {
     highScoresEl.appendChild(replayBtn);
     replayBtn.addEventListener("click", function() {
         replayBtn.setAttribute("style", "display: none");
+        console.log('replay btn')
         startQuiz();
     });
 };
